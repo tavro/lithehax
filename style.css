@@ -1,0 +1,66 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #0f0f0f;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+body h2 {
+    color: #33ff33;
+}
+
+header {
+    background: #003300;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #00cc00 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    color: #33ff33;
+}
+
+section {
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+    flex: 1;
+}
+
+#downloads ul {
+    width: 60%;
+    list-style: none;
+    padding: 0;
+}
+
+#downloads li {
+    background: #262626;
+    margin-bottom: 1em;
+    padding: 10px;
+}
+
+#downloads li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222222;
+    color: #fff;
+    margin-top: auto;
+}
+
+.link {
+    color: #00cc00;
+}
